@@ -88,7 +88,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'btredb',
         'USER': 'postgres',
-        'PASSWORD': 'Dadu@2002',
+        'PASSWORD': '',
         'HOST': 'localhost',
     }
     db_from_env = dj_database_url.config(conn_max_age=600)
@@ -158,7 +158,7 @@ MESSAGE_TAGS = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'dibyanshu.m2002@gmail.com'
-EMAIL_HOST_PASSWORD = 'donotaskagain'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 SECRET_KEY = os.environ.get('SECRET_KEY')
